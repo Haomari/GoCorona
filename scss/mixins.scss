@@ -1,0 +1,71 @@
+@mixin BG_red {
+	background: #EC5863;
+}
+@mixin C_red {
+	color:#EC5863;
+}
+@mixin C_blue {
+	color:#4285F4;
+}
+@mixin BG_blue {
+	background: #4285F4;
+}
+
+
+// 
+
+
+.blue-button{
+	@include BG_blue();
+	border-radius: 5px;
+	font-family: Raleway;
+	font-weight: 800;
+	font-size: 10px;
+	line-height: 1.2;
+	letter-spacing: 0.14em;
+	color: #FCFDFE;
+}
+.red-button{
+	@include BG_red();
+	border-radius: 5px;
+	font-family: Raleway;
+	font-weight: 800;
+	font-size: 10px;
+	line-height: 1.2;
+	letter-spacing: 0.14em;
+	color: #FCFDFE;
+}
+
+
+.title-blue{
+	color: #000000;
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 126%;
+	& span{
+		@include C_blue();
+	}
+}   
+.title-blue{
+	color: #000000;
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 126%;
+	& span{
+		@include C_red();
+	}
+}
+
+
+.text{
+	font-size: 12px;
+	line-height: 138.5%;
+	letter-spacing: 0.08em;
+	color: #616161;
+}
+.text-bold{
+	font-size: 11px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.37em;
+}

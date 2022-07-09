@@ -1,0 +1,55 @@
+.blue-button {
+  background: #4285F4;
+  border-radius: 5px;
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: 0.14em;
+  color: #FCFDFE;
+}
+
+.red-button {
+  background: #EC5863;
+  border-radius: 5px;
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: 0.14em;
+  color: #FCFDFE;
+}
+
+.title-blue {
+  color: #000000;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 126%;
+}
+.title-blue span {
+  color: #4285F4;
+}
+
+.title-blue {
+  color: #000000;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 126%;
+}
+.title-blue span {
+  color: #EC5863;
+}
+
+.text {
+  font-size: 12px;
+  line-height: 138.5%;
+  letter-spacing: 0.08em;
+  color: #616161;
+}
+
+.text-bold {
+  font-size: 11px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.37em;
+}
