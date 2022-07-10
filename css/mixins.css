@@ -20,14 +20,14 @@
   color: #FCFDFE;
 }
 
-.title-blue {
+.title-red {
   color: #000000;
   font-weight: 700;
   font-size: 44px;
   line-height: 126%;
 }
-.title-blue span {
-  color: #4285F4;
+.title-red span {
+  color: #EC5863;
 }
 
 .title-blue {
@@ -37,7 +37,7 @@
   line-height: 126%;
 }
 .title-blue span {
-  color: #EC5863;
+  color: #4285F4;
 }
 
 .text {
