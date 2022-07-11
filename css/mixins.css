@@ -1,25 +1,5 @@
-@mixin BG_red {
-  background: #EC5863;
-}
-
-@mixin C_red {
-  color: #EC5863;
-}
-
-@mixin C_blue {
-  color: #4285F4;
-}
-
-@mixin BG_blue {
-  background: #4285F4;
-}
-
-
-//  clases
-
-
 .blue-button {
-  @include BG_blue();
+  background: #4285F4;
   border-radius: 5px;
   font-family: Raleway;
   font-weight: 800;
@@ -30,9 +10,9 @@
 }
 
 .red-button {
-  @include BG_red();
+  background: #EC5863;
   border-radius: 5px;
-	padding: 14px 29px;
+  padding: 14px 29px;
   font-family: Raleway;
   font-weight: 800;
   font-size: 10px;
@@ -41,16 +21,14 @@
   color: #FCFDFE;
 }
 
-
 .title-red {
   color: #000000;
   font-weight: 700;
   font-size: 44px;
   line-height: 126%;
-
-  & span {
-    @include C_red();
-  }
+}
+.title-red span {
+  color: #EC5863;
 }
 
 .title-blue {
@@ -58,12 +36,10 @@
   font-weight: 700;
   font-size: 44px;
   line-height: 126%;
-
-  & span {
-    @include C_blue();
-  }
 }
-
+.title-blue span {
+  color: #4285F4;
+}
 
 .text {
   font-size: 12px;
