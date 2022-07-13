@@ -7,6 +7,12 @@
   line-height: 1.2;
   letter-spacing: 0.14em;
   color: #FCFDFE;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.blue-button:hover {
+  background: #316fd3;
 }
 
 .red-button {
@@ -19,6 +25,12 @@
   line-height: 1.2;
   letter-spacing: 0.14em;
   color: #FCFDFE;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.red-button:hover {
+  background: #c53e47;
 }
 
 .title-red {

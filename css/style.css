@@ -81,6 +81,12 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   letter-spacing: 0.14em;
   color: #FCFDFE;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.blue-button:hover {
+  background: #316fd3;
 }
 
 .red-button {
@@ -93,6 +99,12 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   letter-spacing: 0.14em;
   color: #FCFDFE;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.red-button:hover {
+  background: #c53e47;
 }
 
 .title-red {
@@ -374,7 +386,7 @@ body._lock {
   padding-bottom: 116px;
   background: #FAFBFD;
   position: relative;
-  z-index: -2;
+  z-index: 0;
 }
 .page__healthcare {
   padding-top: 80px;
@@ -493,6 +505,9 @@ body._lock {
   letter-spacing: 0.165em;
   text-transform: uppercase;
   color: #000000;
+}
+.watch-main__link:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 767.98px) {
