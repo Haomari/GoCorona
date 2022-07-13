@@ -707,9 +707,10 @@ body {
 	}
 
 	&__body {
-		flex: 0 0 51%;
+		flex: 0 1 51%;
 		margin-left: 50px;
 		margin-bottom: 80px;
+		align-self: center;
 	}
 
 	&__title {
@@ -741,6 +742,7 @@ body {
 		background: #FFFFFF;
 		border-radius: 8px;
 		box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+		margin-left: 20px;
 
 		display: flex;
 		justify-content: center;
